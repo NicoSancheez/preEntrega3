@@ -1,0 +1,64 @@
+@font-face {
+    font-family:copyduck ;
+    src: url(../font/Copyduck.ttf);
+}
+@font-face {
+    font-family:jack ;
+    src: url(../font/Jack\ in\ the\ Box.ttf);
+}
+body {
+    text-align: center;
+    background-image: url('../png/slider-home-memoria-2022-fondo.png');
+}
+
+h1 {
+    color: #f8f7f7;
+    font-family: copyduck;
+    font-size: 70px;
+}
+
+#tablero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 30px;
+    color: #eee;
+    font-family: jack;
+}
+
+.cartas {
+    width: 80px;
+    height: 120px;
+    margin: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.oculto {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 26px;
+    font-family: jack;
+    background-color: #ff5e00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
