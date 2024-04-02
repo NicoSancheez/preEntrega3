@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (tablero.children[primeraCarta].dataset.carta === tablero.children[segundaCarta].dataset.carta) {
             cartasCompletadas.push(primeraCarta, segundaCarta);
             if (cartasCompletadas.length === cartas.length * 2) {
-                alert('¡Felicidades! ¡Encontraste todas las parejas!');
+                alert('¡Felicidades Sos Un Animal!');
                 localStorage.removeItem('juegoGuardado');
                 iniciarJuego();
             }
